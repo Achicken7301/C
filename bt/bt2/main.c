@@ -22,6 +22,7 @@ void searchString(char *str, char *subStr) {
           goto label;
         }
       }
+      flag = 1;
       if (flag == 1) {
         printf("Chuoi '%s' nam o vi tri %d\n", subStr, i);
       }
